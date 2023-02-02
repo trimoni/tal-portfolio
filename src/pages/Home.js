@@ -19,15 +19,18 @@ function Home() {
           <ol className="list">
             <li className="item">
               <h2> Front-End</h2>
-              <span> </span>
+              <span>
+                ReactJS, HTML, CSS, JavaScript, BootStrap, Yarn, NPM</span>
             </li>
             <li className="item">
               <h2> Back-End</h2>
-              <span> </span>
+              <span>
+                NodeJs, ExpressJS, SQL, MongeDB, Django, AWS, Azure</span>
             </li>
             <li className="item">
               <h2> Languages</h2>
-              <span> </span>
+              <span>
+                JavaScript, Python, Java, C++</span>
             </li>
           </ol>
         </div>
