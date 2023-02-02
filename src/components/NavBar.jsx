@@ -6,7 +6,7 @@ import ReorderIcon from '@material-ui/icons/Reorder'
 function NavBar() {
     const [expandNavbar, setExpandNavbar] = useState(false)
   return (
-    <div className='navbar'> 
+    <div className='navbar' id={expandNavbar ? 'open' : 'close'}> 
       <div className='toggleButton'>
         <button onClick={() => {setExpandNavbar((prev) => !prev)}}> <ReorderIcon/> </button>
       </div>
