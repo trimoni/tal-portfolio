@@ -4,7 +4,7 @@ import Home from'./pages/Home'
 import Projects from'./pages/Projects'
 import Experience from'./pages/Experience'
 import NavBar from './components/NavBar'
-
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/experience' element={<Experience />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
