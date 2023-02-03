@@ -12,7 +12,11 @@ function Experience() {
         date="2015 - 2019"
         iconStyle={{background: '#3e497a', colo: '#fff'}}
         icon={<SchoolIcon/>}
-        ></VerticalTimelineElement>
+        >
+
+          <h3 className='vertical-timeline-element-title'> Salem State University, Salem MA</h3>
+          <p>Bacholer's Degree - Communications</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
