@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className='experience'>
       <VerticalTimeline lineColor='#3e497a'>
-        <VerticalTimelineElement></VerticalTimelineElement>
+        <VerticalTimelineElement className='vertical-timeline-element--education'></VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
