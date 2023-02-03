@@ -6,7 +6,8 @@ import Proj5 from '../assets/pokemoncollector.png'
 import Proj6 from '../assets/wordle.png'
 import Proj7 from '../assets/hat.jpg'
 
-const projects = [
+
+export const ProjectList = [
   {
     title: 'ColorFul Connect Four',
     description: `HTML, CSS & JavaScript`,
@@ -64,4 +65,3 @@ const projects = [
   }
   ]
   
-  export {projects}

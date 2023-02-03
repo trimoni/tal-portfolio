@@ -1,16 +1,16 @@
 import React from 'react'
 import '../styles/Projects.css'
 import ProjectItem from '../components/ProjectItem'
-// import Proj1 from '../assets/color-connect-four2.jpg'
-// import Proj2 from '../assets/tictactoe.jpg'
+import { ProjectList } from '../helpers/ProjectList'
 
 function Projects() {
   return (
     <div className='projects'>
       <h1> My Personal Projects</h1>
       <div className='projectList'>
-        {/* <ProjectItem name='Connect Four' image={Proj1} />
-        <ProjectItem name='Tic Tac Toe' image={Proj2}/> */}
+        {ProjectList.map((project) => {
+          return <ProjectItem name={project.title} image={project.image}/>
+        })}
       </div>
     </div>
   )
