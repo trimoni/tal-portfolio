@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Project.css'
 import ProjectItem from '../components/ProjectItem'
 import Proj1 from '../assets/color-connect-four2.jpg'
 import Proj2 from '../assets/tictactoe.jpg'
