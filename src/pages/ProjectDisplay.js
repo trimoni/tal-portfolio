@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { ProjectList } from '../helpers/ProjectList'
 import GitHubIcon from "@material-ui/icons/GitHub";
 import Link from '@material-ui/core/Link'
+import LaunchIcon from '@material-ui/icons/Launch';
 
 import '../styles/ProjectDisplay.css'
 
@@ -16,7 +17,10 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.description}
       </p>
-      <Link href={project.repositoryLink}><GitHubIcon /></Link>
+      <div>
+        <Link href={project.repositoryLink}><GitHubIcon /></Link>
+        <Link href={project.depositoryLink}><LaunchIcon /></Link>
+      </div>
     </div>
   )
 }
